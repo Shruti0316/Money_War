@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+body{
+    height: 100%;
+    margin: 0;
+    background-color: #0e2f56;
+}
+#logform,#register{
+   background-color: #ff304f;
+    color: black;
+    padding: 35px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%); 
+} 
+form{
+    font-size: 25px; 
+    font-family: 'Rubik', sans-serif;
+    padding: 35px;
+}
+.bttn{
+    width: 100%;
+    border: 0;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#login,#signup{
+    font-size: 20px;
+}
+.data{ 
+    border:0;
+    border-bottom: 1px black solid;
+    background-color: #ff304f;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    outline: none;
+}
+.navbar{
+    background-color: #ff304f;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar div{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+.navbar div:hover,.navbar div a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #0e2f56;
+}    
+#welcome{
+    color: #ff304f;
+    font-family: 'Concert One', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.button{
+    width: 50%;
+    border: 0;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.info{ 
+    border:0;
+    background-color:#ff304f;
+    border-bottom: 1px black solid;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    outline: none;
+}
+.title{
+    font-size: 25px;
+    font-family: 'Concert One',sans-serif;
+    color: white;
+}
+
+#title{
+    font-size: 30px;
+    font-family: 'Concert One',sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: red;
+}
+a{
+  color: white;
+  text-decoration: none;  
+}
+.view a{
+    color: #0e2f56;
+    font-weight: bold;
+}
+header{
+    color: whitesmoke;
+    font-size: 75px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+}
+#ahome{
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
